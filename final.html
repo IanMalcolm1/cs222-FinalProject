@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CS 222 - Final Project</title>
+    <link rel="icon" type="image/x-icon" href="../media/flower_favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/final.js"></script>
+    <link rel="stylesheet" href="css/final.css">
+    <link rel="stylesheet" href="css/themes/light.css">
+</head>
+
+<body>
+    <div id="signup">
+        <h1>Sign up for CS-222's Fitness Aid</h1>
+        <form id="signupForm" class="enterSite">
+            <label for="nameSignup">Name:</label><br>
+            <input type="text" id="nameSignup" name="name">
+            <br><br>
+            <label for="eSignup">Email Address:</label><br>
+            <input type="text" id="eSignup" name="email">
+            <br><br>
+            <label for="pSignup">Password:</label><br>
+            <input type="password" id="pSignup" name="password">
+            <br><br>
+            <input type="submit" value="Sign Up">
+        </form>
+        <p class="smol">
+            Already a member?<br>
+            <span class="pseudolink" id="showLogin">Log In to Existing Account</span>
+        </p>
+    </div>
+
+    
+    <div id="login" hidden>
+        <h1>Login to CS-222's Fitness Aid</h1>
+        <form id="loginForm" class="enterSite">
+            <label for="eLogin">Email:</label><br>
+            <input type="text" id="eLogin" name="email">
+            <br><br>
+            <label for="pLogin">Password:</label><br>
+            <input type="password" id="pLogin" name="password">
+            <br><br>
+            <input type="submit" value="Login">
+        </form>
+        <p class="smol">
+            New member?<br>
+            <span class="pseudolink" id="showSignUp">Create an Account</span>
+        </p>
+    </div>
+</body>

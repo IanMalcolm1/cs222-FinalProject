@@ -1,0 +1,13 @@
+/* App Portion */
+* {
+    text-align: center;
+}
+
+#mainpage, #settingspage {
+    height: 25em;
+}
+
+p.labelp {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}

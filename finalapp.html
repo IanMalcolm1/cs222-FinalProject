@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CS 222 - Final Project</title>
+    <link rel="icon" type="image/x-icon" href="../media/flower_favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/finalapp.js"></script>
+    <link rel="stylesheet" href="css/final.css">
+    <link rel="stylesheet" href="css/finalapp.css">
+    <link rel="stylesheet" id="themeStylesheet" href="css/themes/light.css">
+</head>
+
+<body>
+    <div id="mainpage">
+        <h1>CS-222's Fitness Aid</h1>
+
+        <select id="typeselector" name="type">
+            <option value="">Choose an Exercise Type</option>
+            <option value="upperbody">Upper Body</option>
+            <option value="core">Core</option>
+            <option value="legs">Legs</option>
+        </select>
+        <div id="suggestions"></div>
+    </div>
+
+    <div id="settingspage" hidden>
+        <h3>Account Settings</h3>
+        <form id="settingsform">
+            <p class="labelp">Theme:</p>
+            <label><input type="radio" name="theme" value="0">Light</label>
+            <label><input type="radio" name="theme" value="1">Dark</label>
+            <label><input type="radio" name="theme" value="2">Gray</label>
+            <label><input type="radio" name="theme" value="3">Pink</label>
+            <br>
+            <input type="submit" value="Apply">
+        </form>
+    </div>
+
+    <p id="toSettings" class="labelp"><span class="pseudolink">Settings</span></p>
+    <p id="toMain" class="labelp" hidden><span class="pseudolink">Back to App</span></p>
+    <p id="signoutholder" class="labelp"><span class="pseudolink" id="signout">Sign Out</span></p>
+
+</body>

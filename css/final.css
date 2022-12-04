@@ -1,0 +1,33 @@
+/* General */
+div {
+    text-align: center;
+}
+
+form.enterSite {
+    width: fit-content;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=submit] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.smol{
+    font-size: small;
+    color: gray;
+}
+
+label.error {
+    padding-left: 1em;
+    color: red;
+}
+
+span.pseudolink {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(47, 110, 168);
+}
