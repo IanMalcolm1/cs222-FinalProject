@@ -1,4 +1,4 @@
-Simple examples of AJAX, PHP, and MySQL. Keeping it around for reference.
+Fundamental examples of AJAX, PHP, and MySQL. Keeping it around for reference.
 
 Features:
  - remembers user sign in for up to a week
@@ -10,6 +10,6 @@ You can use the following sign in info:
 Username: test@test.com
 Password: test
 
-What to do otherwise (this is mostly for my own reference):
+What to do otherwise:
 Install WAMP and put all files into a subfolder of www (which itself should be under wamp64)
 Open PHPMyAdmin and import finalprojtest.sql
